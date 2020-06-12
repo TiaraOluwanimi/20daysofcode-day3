@@ -1,0 +1,183 @@
+body {
+  margin: auto;
+  padding: auto;
+  background: 100% auto;
+  background-repeat: no-repeat;
+  background-color: rgb(15, 136, 136);
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h4 {
+  color: rgb(240, 233, 233);
+  font-family: Arial;
+  font-weight: 100;
+  opacity: 0.65;
+}
+h2 {
+  color: rgb(243, 209, 165);
+  font-family: Arial;
+}
+span {
+  color: whitesmoke;
+}
+header {
+  height: 8.5%;
+}
+#header {
+  margin-top: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  position: absolute;
+}
+#logo {
+  margin-left: 5%;
+}
+
+#menubar {
+  float: right;
+  text-align: center;
+  width: 80%;
+}
+#menubar a {
+  color: rgb(15, 136, 136);
+  text-decoration: none;
+  padding: 5% 5%;
+  font-size: 20px;
+  line-height: 40px;
+}
+a:hover {
+  background-color: rgb(243, 209, 165);
+}
+
+#container {
+  width: 80%;
+  padding: 10%;
+  margin: auto;
+}
+#main {
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+  text-align: justify;
+}
+#main h4 {
+  color: whitesmoke;
+  opacity: 0.6;
+}
+#image {
+  width: 40%;
+  float: right;
+  margin-left: 5%;
+}
+#screen {
+  border-radius: 10px;
+  padding-top: 15%;
+}
+#googleplay,
+#appstore {
+  border-radius: 25px;
+  margin-right: 2%;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  text-decoration-color: honeydew;
+  background-color: black;
+}
+@media (max-width: 800px) {
+  #menubar {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  #menubar {
+    width: 90%;
+  }
+  #logo {
+    width: 10%;
+  }
+}
+/**For Features**/
+#features {
+  width: 100%;
+  display: flex;
+  margin: 20% 0 0 0;
+  background-color: whitesmoke;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+}
+#schedule {
+  margin-left: 15%;
+}
+#delivery,
+#schedule,
+#payment {
+  width: 25%;
+  padding: 5%;
+  color: black;
+}
+h4 {
+  color: rgb(236, 134, 1);
+}
+#delivery p {
+  text-align: left;
+  color: black;
+}
+#schedule p {
+  text-align: left;
+  color: black;
+}
+#payment p {
+  text-align: left;
+  color: black;
+}
+
+/**For About
+#aboutcontainer {
+  width: 100%;
+  margin-top: 20%;
+  color: black;
+}
+#aboutcontainer p {
+  color: black;
+}
+#left {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5% 20%;
+  text-align: justify;
+}
+#right {
+  margin-top: 3%;
+  text-align: center;
+  width: 100%;
+}
+h3 {
+  font-family: cursive;
+  color: teal;
+  text-align: center;
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+strong {
+  color: teal;
+}
+**/
+/**for footer**/
+.footer {
+  height: 30%;
+  width: 100%;
+  text-align: center;
+}
